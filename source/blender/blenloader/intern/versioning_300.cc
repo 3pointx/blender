@@ -3836,6 +3836,35 @@ void blo_do_versions_300(FileData *fd, Library * /*lib*/, Main *bmain)
       }
     }
   }
+
+  if (!MAIN_VERSION_ATLEAST(bmain, 305, 7)) {
+    LISTBASE_FOREACH (Object *, ob, &bmain->objects) {
+      bool after_armature = false;
+      LISTBASE_FOREACH (ModifierData *, md, &ob->modifiers) {
+        if (md->type == eModifierType_Armature) {
+          ArmatureModifierData *amd = (ArmatureModifierData *)md;
+          if (amd->multi) {
+            /* Toggle the invert vertex group flag on operational Multi Modifier entries. */
+            if (after_armature && amd->defgrp_name[0]) {
+              amd->deformflag ^= ARM_DEF_INVERT_VGROUP;
+            }
+          }
+          else {
+            /* Disabled multi modifiers don't reset propagation, but non-multi ones do. */
+            after_armature = false;
+          }
+          /* Multi Modifier is only valid and operational after an active Armature modifier. */
+          if (md->mode & (eModifierMode_Realtime | eModifierMode_Render)) {
+            after_armature = true;
+          }
+        }
+        else {
+          after_armature = false;
+        }
+      }
+    }
+  }
+
   /**
    * Versioning code until next subversion bump goes here.
    *
