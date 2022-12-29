@@ -449,6 +449,15 @@ static void node_join(BVHTree *tree, BVHNode *node)
       break;
     }
   }
+
+  /* Update the main axis and reorder children along it.
+   * The expectation is that the coordinates change slowly and thus
+   * no changes are required in most of the cases. */
+  const char split_axis = get_largest_axis(node->bv);
+
+  node->main_axis = split_axis / 2;
+
+  bvh_insertionsort(node->children, 0, node->node_num, split_axis);
 }
 
 #ifdef USE_PRINT_TREE
@@ -1091,6 +1100,13 @@ static bool tree_overlap_test(const BVHNode *node1,
   return 1;
 }
 
+/** Dimension of the node along the main axis. */
+MINLINE float tree_node_main_dimension(const BVHNode *node)
+{
+  const float *bv = node->bv + (node->main_axis << 1);
+  return bv[1] - bv[0];
+}
+
 static void tree_overlap_traverse(BVHOverlapData_Thread *data_thread,
                                   const BVHNode *node1,
                                   const BVHNode *node2)
@@ -1119,6 +1135,14 @@ static void tree_overlap_traverse(BVHOverlapData_Thread *data_thread,
           if (node2->children[j]) {
             tree_overlap_traverse(data_thread, node1, node2->children[j]);
           }
+        }
+      }
+    }
+    else if (node2->node_num &&
+             tree_node_main_dimension(node2) > tree_node_main_dimension(node1)) {
+      for (j = 0; j < data->tree2->tree_type; j++) {
+        if (node2->children[j]) {
+          tree_overlap_traverse(data_thread, node1, node2->children[j]);
         }
       }
     }
@@ -1166,6 +1190,14 @@ static void tree_overlap_traverse_cb(BVHOverlapData_Thread *data_thread,
           if (node2->children[j]) {
             tree_overlap_traverse_cb(data_thread, node1, node2->children[j]);
           }
+        }
+      }
+    }
+    else if (node2->node_num &&
+             tree_node_main_dimension(node2) > tree_node_main_dimension(node1)) {
+      for (j = 0; j < data->tree2->tree_type; j++) {
+        if (node2->children[j]) {
+          tree_overlap_traverse_cb(data_thread, node1, node2->children[j]);
         }
       }
     }
