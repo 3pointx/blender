@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: BSD-3-Clause
-# Copyright 2019 Blender Foundation.
+# Copyright 2019 3 Point X.
 
 # - Find Universal Scene Description (USD) library
 # Find the native USD includes and libraries

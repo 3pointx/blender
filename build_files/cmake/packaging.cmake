@@ -3,9 +3,9 @@
 string(TIMESTAMP CURRENT_YEAR "%Y")
 
 set(PROJECT_DESCRIPTION  "Blender is the free and open source 3D creation suite software.")
-set(PROJECT_COPYRIGHT    "Copyright (C) 2001-${CURRENT_YEAR} Blender Foundation")
+set(PROJECT_COPYRIGHT    "Copyright (C) 2001-${CURRENT_YEAR} 3 Point X")
 set(PROJECT_CONTACT      "foundation@blender.org")
-set(PROJECT_VENDOR       "Blender Foundation")
+set(PROJECT_VENDOR       "3 Point X")
 
 set(MAJOR_VERSION ${BLENDER_VERSION_MAJOR})
 set(MINOR_VERSION ${BLENDER_VERSION_MINOR})
@@ -82,8 +82,8 @@ if(APPLE)
 endif()
 
 if(WIN32)
-  set(CPACK_PACKAGE_INSTALL_DIRECTORY "Blender Foundation/Blender ${MAJOR_VERSION}.${MINOR_VERSION}")
-  set(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "Blender Foundation/Blender ${MAJOR_VERSION}.${MINOR_VERSION}")
+  set(CPACK_PACKAGE_INSTALL_DIRECTORY "3 Point X/Blender ${MAJOR_VERSION}.${MINOR_VERSION}")
+  set(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "3 Point X/Blender ${MAJOR_VERSION}.${MINOR_VERSION}")
 
   set(CPACK_NSIS_MUI_ICON ${CMAKE_SOURCE_DIR}/release/windows/icons/winblender.ico)
   set(CPACK_NSIS_COMPRESSOR "/SOLID lzma")

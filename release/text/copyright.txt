@@ -8,7 +8,7 @@
  IMPORTANT: PLEASE READ CAREFULLY BEFORE USING THE BLENDER SOFTWARE
   
   This License Agreement for the Blender software ("License
-  Agreement") is an agreement between Stichting Blender Foundation, 
+  Agreement") is an agreement between Stichting 3 Point X, 
   Amsterdam, the Netherlands ("BF") and you (either an individual or a 
   legal entity) ("You") with respect to the software product which this 
   License Agreement accompanies (the "Software"). 
@@ -91,7 +91,7 @@
   the competent court in Amsterdam, the Netherlands, to which jurisdiction
   BF and You hereby irrevocably consent.
 
-  Stichting Blender Foundation
+  Stichting 3 Point X
   Amsterdam
   the Netherlands
   Chamber of Commerce: 34176425

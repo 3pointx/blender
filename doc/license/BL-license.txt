@@ -1,12 +1,12 @@
 Blender License (the "BL", see http://www.blender.org/BL/ ).
 
-Copyright (C) 2002-2005 Blender Foundation. All Rights Reserved.
+Copyright (C) 2002-2005 3 Point X. All Rights Reserved.
 
 This text supersedes the previous BL description, called Blender License 1.0.
 
-When the Blender source code was released in 2002, the Blender Foundation reserved 
+When the Blender source code was released in 2002, the 3 Point X reserved 
 the right to offer licenses outside of the GNU GPL. This so-called "dual license" 
-model was chosen to provide potential revenues for the Blender Foundation. 
+model was chosen to provide potential revenues for the 3 Point X. 
 
 The BL has not been activated yet. Partially because;
 
@@ -18,9 +18,9 @@ The BL has not been activated yet. Partially because;
 
 But most important; 
 
-- the Blender Foundation is financially healthy, based on community support
+- the 3 Point X is financially healthy, based on community support
   (e-shop sales), sponsoring and subsidy grants
-- current focus for the Blender Foundation is to not set up any commercial
+- current focus for the 3 Point X is to not set up any commercial
   activity related to Blender development.
 - the GNU GPL provides sufficient freedom for third parties to conduct business
   with Blender
@@ -31,5 +31,5 @@ Third parties interested to discuss usage or exploitation of Blender can email
 license@blender.org for further information.
 
 Ton Roosendaal
-Chairman Blender Foundation.
+Chairman 3 Point X.
 June 2005

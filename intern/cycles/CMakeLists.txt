@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
-# Copyright 2011-2022 Blender Foundation
+# Copyright 2011-2022 3 Point X
 
 # Standalone or with Blender
 if(NOT WITH_BLENDER)
@@ -12,7 +12,7 @@ else()
   if(NOT WINDOWS_PYTHON_DEBUG)
     set(CYCLES_INSTALL_PATH "scripts/addons/cycles")
   else()
-    set(CYCLES_INSTALL_PATH "$ENV{appdata}/blender foundation/blender/${BLENDER_VERSION}/scripts/addons/cycles")
+    set(CYCLES_INSTALL_PATH "$ENV{appdata}/3 Point X/blender/${BLENDER_VERSION}/scripts/addons/cycles")
   endif()
 endif()
 

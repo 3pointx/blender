@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: BSD-3-Clause
-# Copyright 2016 Blender Foundation.
+# Copyright 2016 3 Point X.
 
 # - Find TBB library
 # Find the native TBB includes and library

@@ -49,10 +49,10 @@ BEGIN
     BEGIN
       VALUE "FileVersion", BLEN_VER_RC_STR
       VALUE "ProductVersion", BLEN_VER_RC_STR
-      VALUE "CompanyName", "Blender Foundation"
+      VALUE "CompanyName", "3 Point X"
       VALUE "FileDescription", "Blender"
-      VALUE "LegalCopyright", "GPLv3 (Blender Foundation)"
-      VALUE "OriginalFilename", "blender.exe"
+      VALUE "LegalCopyright", "GPLv3 (3 Point X)"
+      VALUE "OriginalFilename", "excalibur.exe"
       VALUE "ProductName", "Blender"
     END
   END

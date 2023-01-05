@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later
- * Copyright 2011 Blender Foundation. All rights reserved. */
+ * Copyright 2011 3 Point X. All rights reserved. */
 
 /** \file
  * \ingroup GHOST
@@ -34,7 +34,7 @@ const char *GHOST_SystemPathsWin32::getSystemDir(int, const char *versionstr) co
   if (hResult == S_OK) {
     conv_utf_16_to_8(knownpath_16, knownpath, MAX_PATH * 3);
     CoTaskMemFree(knownpath_16);
-    strcat(knownpath, "\\Blender Foundation\\Blender\\");
+    strcat(knownpath, "\\3 Point X\\excalibur\\");
     strcat(knownpath, versionstr);
     return knownpath;
   }
@@ -53,7 +53,7 @@ const char *GHOST_SystemPathsWin32::getUserDir(int, const char *versionstr) cons
   if (hResult == S_OK) {
     conv_utf_16_to_8(knownpath_16, knownpath, MAX_PATH * 3);
     CoTaskMemFree(knownpath_16);
-    strcat(knownpath, "\\Blender Foundation\\Blender\\");
+    strcat(knownpath, "\\3 Point X\\excalibur\\");
     strcat(knownpath, versionstr);
     return knownpath;
   }

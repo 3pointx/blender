@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: Apache-2.0
- * Copyright 2011-2022 Blender Foundation */
+ * Copyright 2011-2022 3 Point X */
 
 /* NOTE: svm_ramp.h, svm_ramp_util.h and node_ramp_util.h must stay consistent */
 

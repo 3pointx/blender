@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: Apache-2.0
- * Copyright 2018-2022 Blender Foundation */
+ * Copyright 2018-2022 3 Point X */
 
 /* This is taken from alShaders/Cryptomatte/MurmurHash3.h:
  *

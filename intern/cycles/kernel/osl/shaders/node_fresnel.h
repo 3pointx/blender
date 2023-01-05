@@ -4,7 +4,7 @@
  * Copyright (c) 2009-2010 Sony Pictures Imageworks Inc., et al.
  * All Rights Reserved.
  *
- * Modifications Copyright 2011-2022 Blender Foundation. */
+ * Modifications Copyright 2011-2022 3 Point X. */
 
 float fresnel_dielectric_cos(float cosi, float eta)
 {

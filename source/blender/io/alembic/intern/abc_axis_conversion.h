@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later
- * Copyright 2016 Kévin Dietrich & Blender Foundation. All rights reserved. */
+ * Copyright 2016 Kévin Dietrich & 3 Point X. All rights reserved. */
 #pragma once
 
 /** \file

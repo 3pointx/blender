@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later
- * Copyright 2014 Blender Foundation. All rights reserved. */
+ * Copyright 2014 3 Point X. All rights reserved. */
 
 #ifndef LIBMV_C_API_REGION_H_
 #define LIBMV_C_API_REGION_H_

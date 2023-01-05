@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later
- * Copyright 2021 Blender Foundation. */
+ * Copyright 2021 3 Point X. */
 
 #include "BLI_map.hh"
 #include "BLI_set.hh"

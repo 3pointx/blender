@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016, Blender Foundation.
+ * Copyright (c) 2016, 3 Point X.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:

@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: BSD-3-Clause
  * Original code Copyright 2017, Intel Corporation
- * Modifications Copyright 2018-2022 Blender Foundation. */
+ * Modifications Copyright 2018-2022 3 Point X. */
 
 #pragma once
 

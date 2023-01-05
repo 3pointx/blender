@@ -2,7 +2,7 @@
  * Adapted from code Copyright 2009-2010 NVIDIA Corporation,
  * and code copyright 2009-2012 Intel Corporation
  *
- * Modifications Copyright 2011-2022 Blender Foundation. */
+ * Modifications Copyright 2011-2022 3 Point X. */
 
 #if BVH_FEATURE(BVH_HAIR)
 #  define NODE_INTERSECT bvh_node_intersect

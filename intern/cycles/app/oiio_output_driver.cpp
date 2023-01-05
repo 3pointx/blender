@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: Apache-2.0
- * Copyright 2021-2022 Blender Foundation */
+ * Copyright 2021-2022 3 Point X */
 
 #include "app/oiio_output_driver.h"
 

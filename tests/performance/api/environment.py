@@ -114,7 +114,7 @@ class TestEnvironment:
 
     def _blender_executable_name(self) -> pathlib.Path:
         if platform.system() == "Windows":
-            return pathlib.Path('blender.exe')
+            return pathlib.Path('excalibur.exe')
         elif platform.system() == "Darwin":
             return pathlib.Path('Blender.app') / 'Contents' / 'MacOS' / 'Blender'
         else:

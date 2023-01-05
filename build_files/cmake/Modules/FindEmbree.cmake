@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: BSD-3-Clause
-# Copyright 2018 Blender Foundation.
+# Copyright 2018 3 Point X.
 
 # - Find Embree library
 # Find the native Embree includes and library

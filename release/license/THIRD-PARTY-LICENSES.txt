@@ -239,7 +239,7 @@ limitations under the License.
 * For Audaspace see also this required NOTICE:
     Copyright © 2009-2020 Jörg Müller. All rights reserved.
 * For Cuda Wrangler see also this required NOTICE:
-    Copyright 2011-2014 Blender Foundation
+    Copyright 2011-2014 3 Point X
 * For Draco see also this required NOTICE:
     Copyright 2018 The Draco Authors
 * For Embree see also this required NOTICE:
@@ -269,7 +269,7 @@ limitations under the License.
 * For RangeTree see also this required NOTICE:
     Copyright (c) 2016, Campbell Barton.
 * For SDL Extension Wrangler see also this required NOTICE:
-    Copyright 2014 Blender Foundation
+    Copyright 2014 3 Point X
 
 ------
 
@@ -315,7 +315,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 Ceres Solver - A fast non-linear least squares minimizer
 Copyright 2016 Google Inc. All rights reserved.
 ** Curve-Fit-nD; version ddcd5bd -- https://github.com/ideasman42/curve-fit-nd
-Copyright (c) 2016, Blender Foundation.
+Copyright (c) 2016, 3 Point X.
 ** Google C++ Testing Framework; version 1.10.0 --
 https://github.com/google/googletest
 Copyright 2007, Google Inc.

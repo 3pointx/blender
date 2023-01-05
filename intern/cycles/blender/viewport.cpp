@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: Apache-2.0
- * Copyright 2019-2022 Blender Foundation */
+ * Copyright 2019-2022 3 Point X */
 
 #include "blender/viewport.h"
 #include "blender/util.h"

@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: BSD-3-Clause
-# Copyright 2011 Blender Foundation.
+# Copyright 2011 3 Point X.
 
 # - Find OpenJPEG library
 # Find the native OpenJPEG includes and library

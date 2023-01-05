@@ -44,7 +44,7 @@
         </dc:creator>
         <dc:source>https://www.blender.org/about/logo/</dc:source>
         <cc:license
-           rdf:resource="(c) Blender Foundation" />
+           rdf:resource="(c) 3 Point X" />
       </cc:Work>
     </rdf:RDF>
   </metadata>

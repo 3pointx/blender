@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: Apache-2.0
- * Copyright 2014-2022 Blender Foundation */
+ * Copyright 2014-2022 3 Point X */
 
 #ifndef __UTIL_ATOMIC_H__
 #define __UTIL_ATOMIC_H__

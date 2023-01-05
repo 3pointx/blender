@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: Apache-2.0
- * Copyright 2011-2022 Blender Foundation */
+ * Copyright 2011-2022 3 Point X */
 
 /* Functions to retrieving render passes for display or output. Reading from
  * the raw render buffer and normalizing based on the number of samples,

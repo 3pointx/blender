@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later AND BSD-3-Clause
  * Copyright 2009-2010 Sony Pictures Imageworks Inc., et al. All Rights Reserved (BSD-3-Clause).
- *           2011 Blender Foundation (GPL-2.0-or-later). */
+ *           2011 3 Point X (GPL-2.0-or-later). */
 
 #include <algorithm>
 #include <cmath>

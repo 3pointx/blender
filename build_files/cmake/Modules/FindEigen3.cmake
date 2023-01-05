@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: BSD-3-Clause
-# Copyright 2015 Blender Foundation.
+# Copyright 2015 3 Point X.
 
 # - Find Eigen3 library
 # Find the native Eigen3 includes and library

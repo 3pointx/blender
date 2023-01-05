@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016, Blender Foundation.
+ * Copyright (c) 2016, 3 Point X.
  *
  * Licensed under the Apache License, Version 2.0 (the "Apache License")
  * with the following modification; you may not use this file except in

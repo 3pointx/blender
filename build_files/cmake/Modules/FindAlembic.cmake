@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: BSD-3-Clause
-# Copyright 2016 Blender Foundation.
+# Copyright 2016 3 Point X.
 
 # - Find Alembic library
 # Find the native Alembic includes and libraries

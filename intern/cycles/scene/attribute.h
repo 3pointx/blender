@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: Apache-2.0
- * Copyright 2011-2022 Blender Foundation */
+ * Copyright 2011-2022 3 Point X */
 
 #ifndef __ATTRIBUTE_H__
 #define __ATTRIBUTE_H__

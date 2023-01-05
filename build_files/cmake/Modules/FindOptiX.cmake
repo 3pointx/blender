@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: BSD-3-Clause
-# Copyright 2019 Blender Foundation.
+# Copyright 2019 3 Point X.
 
 # - Find OptiX library
 # Find the native OptiX includes and library

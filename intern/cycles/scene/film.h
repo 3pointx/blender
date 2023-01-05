@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: Apache-2.0
- * Copyright 2011-2022 Blender Foundation */
+ * Copyright 2011-2022 3 Point X */
 
 #ifndef __FILM_H__
 #define __FILM_H__

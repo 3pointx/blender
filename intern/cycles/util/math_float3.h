@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0
  * Copyright 2011-2013 Intel Corporation
- * Copyright 2011-2022 Blender Foundation */
+ * Copyright 2011-2022 3 Point X */
 
 #ifndef __UTIL_MATH_FLOAT3_H__
 #define __UTIL_MATH_FLOAT3_H__

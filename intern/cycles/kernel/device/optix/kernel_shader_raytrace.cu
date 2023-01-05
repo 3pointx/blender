@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: Apache-2.0
- * Copyright 2021-2022 Blender Foundation. */
+ * Copyright 2021-2022 3 Point X. */
 
 /* Copy of the regular kernels with additional shader ray-tracing kernel that takes
  * much longer to compiler. This is only loaded when needed by the scene. */

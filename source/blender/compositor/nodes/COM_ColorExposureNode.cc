@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later
- * Copyright 2020 Blender Foundation. */
+ * Copyright 2020 3 Point X. */
 
 #include "COM_ColorExposureNode.h"
 #include "COM_ColorExposureOperation.h"

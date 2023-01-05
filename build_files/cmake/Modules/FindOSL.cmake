@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: BSD-3-Clause
-# Copyright 2014 Blender Foundation.
+# Copyright 2014 3 Point X.
 
 # - Find OpenShadingLanguage library
 # Find the native OpenShadingLanguage includes and library

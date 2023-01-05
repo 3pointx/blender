@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: Apache-2.0
- * Copyright 2019-2022 Blender Foundation */
+ * Copyright 2019-2022 3 Point X */
 
 /* This file is based on the paper "Stochastic Generation of (t, s)
  * Sample Sequences" by Helmer, Christensen, and Kensler.

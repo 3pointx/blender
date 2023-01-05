@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
-# Copyright 2011-2022 Blender Foundation
+# Copyright 2011-2022 3 Point X
 
 # Fit to match default projective camera with focal_length 50 and sensor_width 36.
 default_fisheye_polynomial = [

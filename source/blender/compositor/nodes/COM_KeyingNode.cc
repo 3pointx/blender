@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later
- * Copyright 2012 Blender Foundation. */
+ * Copyright 2012 3 Point X. */
 
 #include "COM_KeyingNode.h"
 

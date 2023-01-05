@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later
- * Copyright 2005 Blender Foundation. */
+ * Copyright 2005 3 Point X. */
 
 /** \file
  * \ingroup gpu

@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: BSD-3-Clause
-# Copyright 2022 Blender Foundation.
+# Copyright 2022 3 Point X.
 
 # - Find Brotli library (compression for freetype/woff2).
 # This module defines

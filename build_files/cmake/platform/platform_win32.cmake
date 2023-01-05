@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
-# Copyright 2016 Blender Foundation. All rights reserved.
+# Copyright 2016 3 Point X. All rights reserved.
 
 # Libraries configuration for Windows.
 
@@ -112,7 +112,7 @@ remove_cc_flag("/GR")
 add_definitions(-D_WIN32_WINNT=0x603)
 
 # First generate the manifest for tests since it will not need the dependency on the CRT.
-configure_file(${CMAKE_SOURCE_DIR}/release/windows/manifest/blender.exe.manifest.in ${CMAKE_CURRENT_BINARY_DIR}/tests.exe.manifest @ONLY)
+configure_file(${CMAKE_SOURCE_DIR}/release/windows/manifest/excalibur.exe.manifest.in ${CMAKE_CURRENT_BINARY_DIR}/tests.exe.manifest @ONLY)
 
 if(WITH_WINDOWS_BUNDLE_CRT)
   set(CMAKE_INSTALL_SYSTEM_RUNTIME_LIBS_SKIP TRUE)
@@ -142,7 +142,7 @@ if(WITH_WINDOWS_BUNDLE_CRT)
   set(BUNDLECRT "<dependency><dependentAssembly><assemblyIdentity type=\"win32\" name=\"blender.crt\" version=\"1.0.0.0\" /></dependentAssembly></dependency>")
 endif()
 set(BUNDLECRT "${BUNDLECRT}<dependency><dependentAssembly><assemblyIdentity type=\"win32\" name=\"blender.shared\" version=\"1.0.0.0\" /></dependentAssembly></dependency>")
-configure_file(${CMAKE_SOURCE_DIR}/release/windows/manifest/blender.exe.manifest.in ${CMAKE_CURRENT_BINARY_DIR}/blender.exe.manifest @ONLY)
+configure_file(${CMAKE_SOURCE_DIR}/release/windows/manifest/excalibur.exe.manifest.in ${CMAKE_CURRENT_BINARY_DIR}/excalibur.exe.manifest @ONLY)
 
 
 remove_cc_flag("/MDd" "/MD" "/Zi")
@@ -918,7 +918,7 @@ if(WINDOWS_PYTHON_DEBUG)
   else()
     message(STATUS "Including user scripts from the profile folder")
     # Include the user scripts from the profile folder in the blender_python_user_scripts project.
-    set(USER_SCRIPTS_ROOT "$ENV{appdata}/blender foundation/blender/${BLENDER_VERSION}/scripts")
+    set(USER_SCRIPTS_ROOT "$ENV{appdata}/3 Point X/blender/${BLENDER_VERSION}/scripts")
   endif()
 
   file(TO_CMAKE_PATH ${USER_SCRIPTS_ROOT} USER_SCRIPTS_ROOT)

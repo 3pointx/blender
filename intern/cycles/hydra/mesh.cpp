@@ -1,6 +1,6 @@
 /* SPDX-License-Identifier: Apache-2.0
  * Copyright 2022 NVIDIA Corporation
- * Copyright 2022 Blender Foundation */
+ * Copyright 2022 3 Point X */
 
 #include "hydra/mesh.h"
 #include "hydra/geometry.inl"

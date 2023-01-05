@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: GPL-2.0-or-later
-# Copyright 2006 Blender Foundation. All rights reserved.
+# Copyright 2006 3 Point X. All rights reserved.
 
 set(INC
   ../../intern/clog
@@ -134,7 +134,7 @@ if(WIN32 AND NOT UNIX)
 
   list(APPEND SRC
     ${CMAKE_SOURCE_DIR}/release/windows/icons/winblender.rc
-    ${CMAKE_BINARY_DIR}/blender.exe.manifest
+    ${CMAKE_BINARY_DIR}/excalibur.exe.manifest
   )
 endif()
 
@@ -300,7 +300,7 @@ else()
     add_executable(blender-launcher WIN32
       blender_launcher_win32.c
       ${CMAKE_SOURCE_DIR}/release/windows/icons/winblender.rc
-      ${CMAKE_BINARY_DIR}/blender.exe.manifest
+      ${CMAKE_BINARY_DIR}/excalibur.exe.manifest
     )
     target_compile_definitions (blender-launcher PRIVATE -D_UNICODE -DUNICODE)
     target_link_libraries(blender-launcher Pathcch.lib)

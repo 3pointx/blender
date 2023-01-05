@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: BSD-3-Clause
-# Copyright 2014 Blender Foundation.
+# Copyright 2014 3 Point X.
 
 # Inspired on the Testing.cmake from Libmv
 

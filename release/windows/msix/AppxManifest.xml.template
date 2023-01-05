@@ -3,7 +3,7 @@
   <Identity Name="BlenderFoundation.Blender[PACKAGETYPE]" Publisher="[PUBLISHER]" Version="[VERSION]" ProcessorArchitecture="x64" />
   <Properties>
     <DisplayName>Blender[LTSORNOT]</DisplayName>
-    <PublisherDisplayName>Blender Foundation</PublisherDisplayName>
+    <PublisherDisplayName>3 Point X</PublisherDisplayName>
     <Description>Blender [VERSION] is the Free and Open Source 3D creation suite</Description>
     <Logo>Assets\StoreLogo.scale-100.png</Logo>
   </Properties>

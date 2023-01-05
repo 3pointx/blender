@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: Apache-2.0
- * Copyright 2011-2022 Blender Foundation. */
+ * Copyright 2011-2022 3 Point X. */
 
 // TODO(sergey): Look into avoid use of full Transform and use 3x3 matrix and
 // 3-vector which might be faster.

@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later
- * Copyright 2005 Blender Foundation. All rights reserved. */
+ * Copyright 2005 3 Point X. All rights reserved. */
 
 #include "node_geometry_util.hh"
 
