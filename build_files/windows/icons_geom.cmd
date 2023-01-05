@@ -9,7 +9,7 @@ if EXIST "%BLENDER_BIN%" (
     goto detect_blender_done
 )
 
-echo unable to locate blender, run "set BLENDER_BIN=full_path_to_excalibur.exe"
+echo unable to locate blender, run "set BLENDER_BIN=full_path_to_blender.exe"
 exit /b 1
 
 :detect_blender_done

@@ -9,7 +9,7 @@ set(TEST_INSTALL_DIR ${CMAKE_INSTALL_PREFIX_WITH_CONFIG})
 
 # Path to Blender and Python executables for all platforms.
 if(MSVC)
-  set(TEST_BLENDER_EXE ${TEST_INSTALL_DIR}/excalibur.exe)
+  set(TEST_BLENDER_EXE ${TEST_INSTALL_DIR}/blender.exe)
 elseif(APPLE)
   set(TEST_BLENDER_EXE ${TEST_INSTALL_DIR}/Blender.app/Contents/MacOS/Blender)
 else()

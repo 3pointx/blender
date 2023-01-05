@@ -52,7 +52,7 @@ BEGIN
       VALUE "CompanyName", "3 Point X"
       VALUE "FileDescription", "Blender"
       VALUE "LegalCopyright", "GPLv3 (3 Point X)"
-      VALUE "OriginalFilename", "excalibur.exe"
+      VALUE "OriginalFilename", "blender.exe"
       VALUE "ProductName", "Blender"
     END
   END

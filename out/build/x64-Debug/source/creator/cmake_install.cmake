@@ -2526,7 +2526,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xBlenderx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE MESSAGE_LAZY FILES "C:/Users/norea/OneDrive/Desktop/ExcaliburInstallPackageWorkspace/blender-git/blender/out/build/x64-Debug/bin/excalibur.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE MESSAGE_LAZY FILES "C:/Users/norea/OneDrive/Desktop/ExcaliburInstallPackageWorkspace/blender-git/blender/out/build/x64-Debug/bin/blender.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xBlenderx" OR NOT CMAKE_INSTALL_COMPONENT)
