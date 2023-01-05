@@ -1,0 +1,37 @@
+Determining if the malloc_stats exist failed with the following output:
+Change Dir: C:/Users/norea/OneDrive/Desktop/ExcaliburInstallPackageWorkspace/blender-git/blender/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5b3a2 && [1/2] Building C object CMakeFiles\cmTC_5b3a2.dir\CheckSymbolExists.c.obj
+FAILED: CMakeFiles/cmTC_5b3a2.dir/CheckSymbolExists.c.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_5b3a2.dir\CheckSymbolExists.c.obj /FdCMakeFiles\cmTC_5b3a2.dir\ /FS -c CheckSymbolExists.c
+CheckSymbolExists.c(8): error C2065: 'malloc_stats': undeclared identifier
+ninja: build stopped: subcommand failed.
+
+
+File C:/Users/norea/OneDrive/Desktop/ExcaliburInstallPackageWorkspace/blender-git/blender/out/build/x64-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_stats
+  return ((int*)(&malloc_stats))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test SUPPORT_NEON_BUILD failed with the following output:
+Change Dir: C:/Users/norea/OneDrive/Desktop/ExcaliburInstallPackageWorkspace/blender-git/blender/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_fb153 && [1/2] Building CXX object CMakeFiles\cmTC_fb153.dir\src.cxx.obj
+FAILED: CMakeFiles/cmTC_fb153.dir/src.cxx.obj 
+C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe  /nologo /TP -DSUPPORT_NEON_BUILD  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_fb153.dir\src.cxx.obj /FdCMakeFiles\cmTC_fb153.dir\ /FS -c src.cxx
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\arm_neon.h(21): fatal error C1189: #error:  This header is specific to ARM targets
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <arm_neon.h>
+       int main() {return vaddvq_s32(vdupq_n_s32(1));}
